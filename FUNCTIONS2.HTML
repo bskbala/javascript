@@ -1,0 +1,19 @@
+<html>
+	<script>
+		// Class is  a collection of properties( are accesed through the objets) and methods
+		function Employee(){
+			this.firstname='saikuamr';//property
+			this.lastname='balam';//property 
+			var x=0;//variable
+			this.getFullName = function(){ // this is method
+				return this.firstname+this.lastname
+			}
+			var xyz = function(){
+				return "this is xyz" ///Private Function 
+			}
+		}
+		var e1 = new Employee()
+		console.log(e1.getFullName());
+		
+	</script>
+</html>
